@@ -11,7 +11,9 @@ module.exports = () => {
   });
 
   it("renders a Gradient", () => {
-    const tree = renderer.create(<Gradient />);
+    const tree = renderer.create(
+      <Gradient startColor="#F9F9F9" endColor="#EDEDED" />
+    );
 
     expect(tree).toMatchSnapshot();
   });

@@ -1,5 +1,4 @@
 import React from "react";
-import { colours } from "@ap-rn-components/styleguide";
 import Svg, { Path } from "svgs";
 import iconPropTypes from "./proptypes";
 
@@ -25,7 +24,7 @@ const IconTwitter = ({ width, height, fillColour }) => (
 IconTwitter.propTypes = iconPropTypes;
 
 IconTwitter.defaultProps = {
-  fillColour: colours.functional.action
+  fillColour: "grey"
 };
 
 export default IconTwitter;

@@ -1,5 +1,4 @@
 import React from "react";
-import { colours } from "@ap-rn-components/styleguide";
 import Svg, { Rect, Polygon } from "svgs";
 import iconPropTypes from "./proptypes";
 
@@ -30,7 +29,7 @@ const IconVideo = ({ width, height, fillColour }) => (
 IconVideo.propTypes = iconPropTypes;
 
 IconVideo.defaultProps = {
-  fillColour: colours.functional.brandColour
+  fillColour: "grey"
 };
 
 export default IconVideo;

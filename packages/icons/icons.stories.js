@@ -1,11 +1,10 @@
 import React from "react";
 import { View, StyleSheet, Text } from "react-native";
 import { storiesOf } from "@storybook/react-native";
-import { color } from "@storybook/addon-knobs";
 import { IconDiamond, IconTwitter, IconVideo } from "./icons";
 
 const borderWidth = 1;
-const borderColor = colours.functional.keyline;
+const borderColor = "black";
 
 const styles = StyleSheet.create({
   wrapper: {
@@ -29,8 +28,7 @@ const styles = StyleSheet.create({
     borderBottomColor: borderColor
   },
   label: {
-    paddingTop: 15,
-    fontFamily: fonts.supporting
+    paddingTop: 15
   }
 });
 

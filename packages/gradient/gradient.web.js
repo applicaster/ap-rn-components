@@ -8,7 +8,9 @@ const Gradient = ({ degrees, startColor, endColor, children, style }) => (
   <View
     style={[
       {
-        backgroundImage: `linear-gradient(${degrees}deg, ${startColor} 0%, ${endColor} 100%)`
+        backgroundImage: `linear-gradient(${degrees}deg, ${startColor} 0%, ${
+          endColor
+        } 100%)`
       },
       style
     ]}
@@ -19,6 +21,8 @@ const Gradient = ({ degrees, startColor, endColor, children, style }) => (
 
 Gradient.defaultProps = {
   degrees: 265,
+  startColor: "white",
+  endColor: "grey",
   children: null,
   style: null
 };

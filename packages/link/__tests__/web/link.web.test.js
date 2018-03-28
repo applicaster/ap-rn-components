@@ -15,7 +15,7 @@ describe("Link tests on Web", () => {
       margin-top: 0;
   `,
       medium: `
-      font-size: ${fontSizes.body}px;
+      font-size: 22px;
       line-height: 30px;
   `
     };

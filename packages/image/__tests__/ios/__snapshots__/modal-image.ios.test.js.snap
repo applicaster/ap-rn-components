@@ -11,7 +11,7 @@ exports[`ModalImage test on ios renders correctly 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#1D1D1B",
+          "backgroundColor": "grey",
           "flexDirection": "column",
           "height": "100%",
           "width": "100%",
@@ -50,7 +50,7 @@ exports[`ModalImage test on ios renders correctly 1`] = `
           width="24"
         >
           <g
-            fill="rgba(255, 255, 255, 0.8)"
+            fill="grey"
             style={Object {}}
           >
             <path
@@ -186,8 +186,8 @@ exports[`ModalImage test on ios renders correctly 1`] = `
                     <BVLinearGradient
                       colors={
                         Array [
-                          "#F9F9F9",
-                          "#EDEDED",
+                          "white",
+                          "grey",
                         ]
                       }
                       end={
@@ -307,8 +307,8 @@ exports[`ModalImage test on ios renders correctly 1`] = `
             <BVLinearGradient
               colors={
                 Array [
-                  "#F9F9F9",
-                  "#EDEDED",
+                  "white",
+                  "grey",
                 ]
               }
               end={

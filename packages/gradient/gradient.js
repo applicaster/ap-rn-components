@@ -49,6 +49,8 @@ const Gradient = ({ degrees, startColor, endColor, children, style }) => {
 
 Gradient.defaultProps = {
   degrees: 265,
+  startColor: "white",
+  endColor: "grey",
   children: null,
   style: null
 };

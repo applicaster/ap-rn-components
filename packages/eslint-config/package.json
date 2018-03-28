@@ -1,0 +1,39 @@
+{
+  "name": "@ap-rn-components/eslint-config-thetimes",
+  "version": "0.1.4",
+  "description": "The eslint config for Times Components",
+  "main": "index.js",
+  "scripts": {
+    "fmt": "prettier --write '**/*.*'",
+    "prettier:diff": "prettier --list-different '**/*.*'",
+    "lint": "yarn prettier:diff"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/applicaster/ap-rn-components.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/applicaster/ap-rn-components/issues"
+  },
+  "homepage": "https://github.com/applicaster/ap-rn-components#readme",
+  "dependencies": {
+    "babel-eslint": "8.2.1",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-config-prettier": "2.6.0",
+    "eslint-plugin-flowtype": "2.41.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.4.0",
+    "prettier": "1.8.2"
+  },
+  "peerDependencies": {
+    "eslint": "4.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

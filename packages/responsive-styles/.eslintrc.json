@@ -1,0 +1,3 @@
+{
+  "extends": ["@ap-rn-components/thetimes"]
+}

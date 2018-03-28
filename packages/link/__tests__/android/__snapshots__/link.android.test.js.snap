@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link test on android Link doesnt change inner text styles 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  nativeBackgroundAndroid={
+    Object {
+      "attribute": "selectableItemBackground",
+      "type": "ThemeAttrAndroid",
+    }
+  }
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  testID={undefined}
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+  >
+    Hello
+  </Text>
+</View>
+`;
+
+exports[`Link test on android Link renders correctly 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  nativeBackgroundAndroid={
+    Object {
+      "attribute": "selectableItemBackground",
+      "type": "ThemeAttrAndroid",
+    }
+  }
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  testID={undefined}
+>
+  The Times
+</View>
+`;
+
+exports[`Link test on android TextLink renders correctly with children 1`] = `
+<Text
+  accessibilityRole="link"
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  href="http://thetimes.co.uk"
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "textDecorationLine": "underline",
+      },
+      Object {},
+    ]
+  }
+>
+  The Times
+</Text>
+`;
+
+exports[`Link test on android TextLink renders correctly with multiple styles 1`] = `
+<Text
+  accessibilityRole="link"
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  href="http://thetimes.co.uk"
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "textDecorationLine": "underline",
+      },
+      Object {
+        "backgroundColor": "blue",
+      },
+      Object {
+        "color": "red",
+      },
+    ]
+  }
+>
+  The Times
+</Text>
+`;
+
+exports[`Link test on android TextLink renders correctly with specific styles 1`] = `
+<Text
+  accessibilityRole="link"
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  href="http://thetimes.co.uk"
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "textDecorationLine": "underline",
+      },
+      Object {
+        "backgroundColor": "blue",
+      },
+    ]
+  }
+>
+  The Times
+</Text>
+`;

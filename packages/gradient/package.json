@@ -1,0 +1,76 @@
+{
+  "name": "@ap-rn-components/gradient",
+  "version": "0.8.0",
+  "description": "Renders a gradient background",
+  "main": "gradient",
+  "scripts": {
+    "fmt": "prettier --write '**/*.*'",
+    "prettier:diff": "prettier --list-different '**/*.*'",
+    "lint": "eslint . && yarn prettier:diff",
+    "test:android": "jest --config='./__tests__/android/jest.config.js'",
+    "test:ios": "jest --config='./__tests__/ios/jest.config.js'",
+    "test:web": "jest --config='./__tests__/web/jest.config.js'",
+    "test:all": "yarn test:android --coverage & yarn test:ios --coverage & yarn test:web --coverage",
+    "dextrose-stories": "dextrose generate-stories $(pwd)",
+    "dextrose-clean": "dextrose clean-stories $(pwd)"
+  },
+  "jest": {
+    "preset": "react-native",
+    "rootDir": "../../",
+    "coverageDirectory": "<rootDir>/packages/gradient/coverage/",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(react-native|@ap-rn-components)/)"
+    ],
+    "testMatch": [
+      "<rootDir>/packages/gradient/__tests__/*.test.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/applicaster/ap-rn-components.git"
+  },
+  "keywords": [
+    "react-native-web",
+    "react",
+    "native",
+    "web",
+    "gradient",
+    "component"
+  ],
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/applicaster/ap-rn-components/issues"
+  },
+  "homepage": "https://github.com/applicaster/ap-rn-components#readme",
+  "devDependencies": {
+    "@storybook/react-native": "3.3.15",
+    "@ap-rn-components/brightcove-video": "2.1.0",
+    "@ap-rn-components/eslint-config-thetimes": "0.1.4",
+    "@ap-rn-components/jest-configurator": "0.2.2",
+    "dextrose": "1.7.3",
+    "eslint": "4.9.0",
+    "jest": "21.2.1",
+    "prettier": "1.8.2",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-native": "0.53.3",
+    "react-test-renderer": "16.2.0"
+  },
+  "dependencies": {
+    "@ap-rn-components/jest-configurator": "0.2.2",
+    "@ap-rn-components/styleguide": "0.5.2",
+    "prop-types": "15.6.0",
+    "react-native-linear-gradient": "2.4.0"
+  },
+  "peerDependencies": {
+    "babel-preset-env": "1.6.1",
+    "babel-preset-stage-2": "6.24.1",
+    "react": ">=16",
+    "react-dom": ">=16",
+    "react-native": ">=0.50",
+    "react-native-web": ">=0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

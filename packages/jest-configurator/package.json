@@ -1,0 +1,74 @@
+{
+  "name": "@ap-rn-components/jest-configurator",
+  "version": "0.2.2",
+  "description": "Cross platform Jest Config",
+  "main": "lib/jest-configurator.js",
+  "scripts": {
+    "prepublishOnly": "babel src -d lib",
+    "prettier:diff": "prettier --list-different '**/*.*'",
+    "fmt": "prettier --write '**/*.*'",
+    "lint": "flow && eslint . && yarn prettier:diff",
+    "pretest": "./setup.sh",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/applicaster/ap-rn-components.git"
+  },
+  "keywords": [
+    "react-native-web",
+    "react",
+    "native",
+    "web",
+    "link",
+    "component",
+    "jest",
+    "eslint"
+  ],
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/applicaster/ap-rn-components/issues"
+  },
+  "homepage": "https://github.com/applicaster/ap-rn-components#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "jest": {
+    "preset": "react-native",
+    "rootDir": "../../",
+    "coverageDirectory": "<rootDir>/packages/jest-configurator/coverage",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(react-native|@ap-rn-components)/)"
+    ],
+    "testMatch": [
+      "<rootDir>/packages/jest-configurator/__tests__/*.test.js"
+    ]
+  },
+  "dependencies": {
+    "enzyme": "3.3.0",
+    "enzyme-adapter-react-16": "1.1.0",
+    "enzyme-to-json": "3.3.0",
+    "find-node-modules": "1.0.4",
+    "jest-plugin-context": "2.6.0",
+    "recursive-readdir-synchronous": "0.0.3"
+  },
+  "devDependencies": {
+    "@ap-rn-components/eslint-config-thetimes": "0.1.4",
+    "babel-cli": "6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.26.0",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-preset-flow": "6.23.0",
+    "eslint": "4.9.0",
+    "flow-bin": "0.63.1",
+    "jest": "21.2.1",
+    "prettier": "1.8.2"
+  },
+  "peerDependencies": {
+    "babel-preset-env": "1.6.1",
+    "babel-preset-stage-2": "6.24.1",
+    "react-native-web": ">=0.3"
+  },
+  "resolutions": {
+    "minimatch": "3.0.4"
+  }
+}

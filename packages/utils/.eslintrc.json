@@ -1,0 +1,6 @@
+{
+  "extends": ["@ap-rn-components/thetimes"],
+  "env": {
+    "jest": true
+  }
+}

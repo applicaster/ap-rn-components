@@ -1,0 +1,77 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.project
+
+# node.js
+#
+node_modules/
+*.log
+lcov.info
+.coveralls.yml
+package-lock.json
+.json.lerna_backup
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+.storybook.native/story-loader.js
+storybook-static
+coverage
+dist
+
+.fructose/components.js
+.fructose/components.test.js
+
+fructose/components.js
+fructose/components.test.js
+
+dextrose/snappy/**
+
+# developer editor preferences
+.vscode
+
+# Bundles
+ios/main.jsbundle
+ios/main.jsbundle.meta

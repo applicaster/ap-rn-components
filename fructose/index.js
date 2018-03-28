@@ -1,5 +1,5 @@
 import { AppRegistry } from "react-native";
-import Fructose from "@ap-rn-components/fructose";
+import Fructose from "@times-components/fructose";
 // eslint-disable-next-line import/no-unresolved
 import { loadStories } from "./components";
 

@@ -23,6 +23,8 @@ module.exports = () => {
           height: 200,
           width: 200
         }}
+        startColor="#F9F9F9"
+        endColor="#EDEDED"
       />
     );
 
@@ -40,6 +42,8 @@ module.exports = () => {
             width: 200
           }
         ]}
+        startColor="#F9F9F9"
+        endColor="#EDEDED"
       />
     );
 
@@ -58,6 +62,8 @@ module.exports = () => {
             width: 200
           }
         ]}
+        startColor="#F9F9F9"
+        endColor="#EDEDED"
       />
     );
 
@@ -65,31 +71,41 @@ module.exports = () => {
   });
 
   it("renders a Gradient with an angle (-45)", () => {
-    const tree = renderer.create(<Gradient degrees={-45} />);
+    const tree = renderer.create(
+      <Gradient degrees={-45} startColor="#F9F9F9" endColor="#EDEDED" />
+    );
 
     expect(tree).toMatchSnapshot();
   });
 
   it("renders a Gradient with an angle (45)", () => {
-    const tree = renderer.create(<Gradient degrees={45} />);
+    const tree = renderer.create(
+      <Gradient degrees={45} startColor="#F9F9F9" endColor="#EDEDED" />
+    );
 
     expect(tree).toMatchSnapshot();
   });
 
   it("renders a Gradient with an angle (90)", () => {
-    const tree = renderer.create(<Gradient degrees={90} />);
+    const tree = renderer.create(
+      <Gradient degrees={90} startColor="#F9F9F9" endColor="#EDEDED" />
+    );
 
     expect(tree).toMatchSnapshot();
   });
 
   it("renders a Gradient with an angle (180)", () => {
-    const tree = renderer.create(<Gradient degrees={180} />);
+    const tree = renderer.create(
+      <Gradient degrees={180} startColor="#F9F9F9" endColor="#EDEDED" />
+    );
 
     expect(tree).toMatchSnapshot();
   });
 
   it("renders a Gradient with an angle (270)", () => {
-    const tree = renderer.create(<Gradient degrees={270} />);
+    const tree = renderer.create(
+      <Gradient degrees={270} startColor="#F9F9F9" endColor="#EDEDED" />
+    );
 
     expect(tree).toMatchSnapshot();
   });

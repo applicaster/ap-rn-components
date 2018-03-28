@@ -1,7 +1,6 @@
 import React from "react";
 import { View, StyleSheet, Text } from "react-native";
 import { storiesOf } from "@storybook/react-native";
-import { colours, fonts } from "@ap-rn-components/styleguide";
 import { color } from "@storybook/addon-knobs";
 import { IconDiamond, IconTwitter, IconVideo } from "./icons";
 
@@ -38,27 +37,15 @@ const styles = StyleSheet.create({
 storiesOf("Primitives/Icons", module).add("Icons", () => (
   <View style={styles.wrapper}>
     <View style={styles.icon}>
-      <IconDiamond
-        width={50}
-        height={50}
-        fillColour={color("Diamond color", IconDiamond.defaultProps.fillColour)}
-      />
+      <IconDiamond width={50} height={50} fillColour="green" />
       <Text style={styles.label}>Diamond</Text>
     </View>
     <View style={styles.icon}>
-      <IconTwitter
-        width={50}
-        height={50}
-        fillColour={color("Icon color", IconTwitter.defaultProps.fillColour)}
-      />
+      <IconTwitter width={50} height={50} fillColour="red" />
       <Text style={styles.label}>Twitter</Text>
     </View>
     <View style={styles.icon}>
-      <IconVideo
-        width={50}
-        height={50}
-        fillColour={color("Video color", IconVideo.defaultProps.fillColour)}
-      />
+      <IconVideo width={50} height={50} fillColour="blue" />
       <Text style={styles.label}>Video</Text>
     </View>
   </View>

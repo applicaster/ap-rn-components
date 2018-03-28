@@ -33,7 +33,7 @@
   "homepage": "https://github.com/applicaster/ap-rn-components#readme",
   "devDependencies": {
     "@storybook/react-native": "3.3.15",
-    "@ap-rn-components/eslint-config-thetimes": "0.1.4",
+    "@ap-rn-components/eslint-config": "0.1.4",
     "@ap-rn-components/jest-configurator": "0.2.2",
     "dextrose": "1.7.3",
     "enzyme": "3.3.0",
@@ -51,7 +51,6 @@
     "@ap-rn-components/gestures": "1.2.20",
     "@ap-rn-components/gradient": "0.8.0",
     "@ap-rn-components/link": "0.15.12",
-    "@ap-rn-components/styleguide": "0.5.2",
     "prop-types": "15.6.0",
     "react-native-svg": "5.5.1",
     "svgs": "3.2.1"

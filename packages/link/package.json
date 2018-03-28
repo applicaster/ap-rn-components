@@ -35,7 +35,7 @@
     "@storybook/addon-actions": "3.3.15",
     "@storybook/addons": "3.3.15",
     "@storybook/react-native": "3.3.15",
-    "@ap-rn-components/eslint-config-thetimes": "0.1.4",
+    "@ap-rn-components/eslint-config": "0.1.4",
     "@ap-rn-components/jest-configurator": "0.2.2",
     "@ap-rn-components/storybook": "0.4.4",
     "dextrose": "1.7.3",
@@ -53,7 +53,6 @@
   },
   "dependencies": {
     "@ap-rn-components/responsive-styles": "0.5.0",
-    "@ap-rn-components/styleguide": "0.5.2",
     "lodash.pick": "4.4.0",
     "prop-types": "15.6.0"
   },

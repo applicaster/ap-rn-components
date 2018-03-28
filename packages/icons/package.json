@@ -34,7 +34,7 @@
     "@storybook/addon-actions": "3.3.15",
     "@storybook/addon-knobs": "3.3.15",
     "@storybook/react-native": "3.3.15",
-    "@ap-rn-components/eslint-config-thetimes": "0.1.4",
+    "@ap-rn-components/eslint-config": "0.1.4",
     "@ap-rn-components/jest-configurator": "0.2.2",
     "@ap-rn-components/storybook": "0.4.4",
     "dextrose": "1.7.3",
@@ -51,7 +51,6 @@
     "react-test-renderer": "16.2.0"
   },
   "dependencies": {
-    "@ap-rn-components/styleguide": "0.5.2",
     "prop-types": "15.6.0",
     "svgs": "3.2.1"
   },

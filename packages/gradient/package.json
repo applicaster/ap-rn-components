@@ -44,8 +44,7 @@
   "homepage": "https://github.com/applicaster/ap-rn-components#readme",
   "devDependencies": {
     "@storybook/react-native": "3.3.15",
-    "@ap-rn-components/brightcove-video": "2.1.0",
-    "@ap-rn-components/eslint-config-thetimes": "0.1.4",
+    "@ap-rn-components/eslint-config": "0.1.4",
     "@ap-rn-components/jest-configurator": "0.2.2",
     "dextrose": "1.7.3",
     "eslint": "4.9.0",
@@ -58,7 +57,6 @@
   },
   "dependencies": {
     "@ap-rn-components/jest-configurator": "0.2.2",
-    "@ap-rn-components/styleguide": "0.5.2",
     "prop-types": "15.6.0",
     "react-native-linear-gradient": "2.4.0"
   },

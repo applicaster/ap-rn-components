@@ -1,5 +1,5 @@
 /* globals beforeAll afterAll jasmine */
-import fructose from "@ap-rn-components/fructose/setup";
+import fructose from "@times-components/fructose/setup";
 import path from "path";
 import wd from "wd";
 

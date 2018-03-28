@@ -53,7 +53,7 @@
     "recursive-readdir-synchronous": "0.0.3"
   },
   "devDependencies": {
-    "@ap-rn-components/eslint-config-thetimes": "0.1.4",
+    "@ap-rn-components/eslint-config": "0.1.4",
     "babel-cli": "6.26.0",
     "babel-plugin-transform-es2015-modules-commonjs": "6.26.0",
     "babel-plugin-transform-object-rest-spread": "6.26.0",

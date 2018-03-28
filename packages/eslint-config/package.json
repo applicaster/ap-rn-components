@@ -1,7 +1,7 @@
 {
-  "name": "@ap-rn-components/eslint-config-thetimes",
+  "name": "@ap-rn-components/eslint-config",
   "version": "0.1.4",
-  "description": "The eslint config for Times Components",
+  "description": "The eslint config for AP Components",
   "main": "index.js",
   "scripts": {
     "fmt": "prettier --write '**/*.*'",

@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import React from "react";
 import { StyleSheet, View, ViewPropTypes } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
-import { colours } from "@ap-rn-components/styleguide";
 
 const { style: ViewPropTypesStyle } = ViewPropTypes;
 const styles = StyleSheet.create({
@@ -30,7 +29,7 @@ function angleToPoints(angle) {
   };
 }
 
-const Gradient = ({ degrees, children, style }) => {
+const Gradient = ({ degrees, startColor, endColor, children, style }) => {
   const { start, end } = angleToPoints((degrees + 90) / 180 * Math.PI);
 
   return (
@@ -39,10 +38,7 @@ const Gradient = ({ degrees, children, style }) => {
         start={start}
         end={end}
         locations={[0.0, 1.0]}
-        colors={[
-          colours.functional.backgroundSecondary,
-          colours.functional.backgroundTertiary
-        ]}
+        colors={[startColor, endColor]}
         style={[styles.container]}
       >
         {children}
@@ -53,12 +49,16 @@ const Gradient = ({ degrees, children, style }) => {
 
 Gradient.defaultProps = {
   degrees: 265,
+  startColor: "white",
+  endColor: "grey",
   children: null,
   style: null
 };
 
 Gradient.propTypes = {
   degrees: PropTypes.number,
+  startColor: PropTypes.string,
+  endColor: PropTypes.string,
   children: PropTypes.oneOfType([
     PropTypes.element,
     PropTypes.arrayOf(PropTypes.element)

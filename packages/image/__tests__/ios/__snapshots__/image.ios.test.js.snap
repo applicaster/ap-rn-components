@@ -62,8 +62,8 @@ exports[`Image test on ios allows styling 1`] = `
         <BVLinearGradient
           colors={
             Array [
-              "#F9F9F9",
-              "#EDEDED",
+              "white",
+              "grey",
             ]
           }
           end={
@@ -156,8 +156,8 @@ exports[`Image test on ios prepends https schema 1`] = `
         <BVLinearGradient
           colors={
             Array [
-              "#F9F9F9",
-              "#EDEDED",
+              "white",
+              "grey",
             ]
           }
           end={
@@ -250,8 +250,8 @@ exports[`Image test on ios renders correctly 1`] = `
         <BVLinearGradient
           colors={
             Array [
-              "#F9F9F9",
-              "#EDEDED",
+              "white",
+              "grey",
             ]
           }
           end={

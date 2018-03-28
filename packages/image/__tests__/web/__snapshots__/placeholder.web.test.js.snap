@@ -12,6 +12,8 @@ exports[`Placeholder test on ios renders loading image when width set 1`] = `
 >
   <Gradient
     degrees={264}
+    endColor="grey"
+    startColor="white"
     style={72}
   >
     <View

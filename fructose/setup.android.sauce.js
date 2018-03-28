@@ -1,5 +1,5 @@
 /* globals beforeAll afterAll jasmine */
-import fructose from "@ap-rn-components/fructose/setup";
+import fructose from "@times-components/fructose/setup";
 import wd from "wd";
 
 const { SAUCE_USERNAME, SAUCE_KEY } = process.env;

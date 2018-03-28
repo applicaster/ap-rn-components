@@ -1,5 +1,4 @@
 import React from "react";
-import { colours } from "@ap-rn-components/styleguide";
 import Svg, { G, Path } from "svgs";
 import iconPropTypes from "./proptypes";
 
@@ -14,7 +13,7 @@ const IconDiamond = ({ width, height, fillColour }) => (
 IconDiamond.propTypes = iconPropTypes;
 
 IconDiamond.defaultProps = {
-  fillColour: colours.functional.brandColour
+  fillColour: "grey"
 };
 
 export default IconDiamond;

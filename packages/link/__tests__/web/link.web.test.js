@@ -1,7 +1,6 @@
 import React from "react";
 import { mount } from "enzyme";
 import "jest-styled-components";
-import { colours, fonts, fontSizes } from "@ap-rn-components/styleguide";
 import test from "../shared";
 import Link, { TextLink } from "../../link";
 
@@ -9,15 +8,14 @@ describe("Link tests on Web", () => {
   it("renders with responsive styles", () => {
     const responsiveLinkStyles = {
       base: `
-      color: ${colours.functional.action};
-      font-family: "${fonts.bodyRegular}";
+      color: grey;
       line-height: 26px;
-      font-size: ${fontSizes.bodyMobile}px;
+      font-size: 22px;
       margin-bottom: 25px;
       margin-top: 0;
   `,
       medium: `
-      font-size: ${fontSizes.body}px;
+      font-size: 22px;
       line-height: 30px;
   `
     };
